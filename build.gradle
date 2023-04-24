@@ -4,7 +4,7 @@ plugins {
     id 'maven-publish'
     id 'org.cadixdev.licenser' version '0.6.1'
     id 'net.minecraftforge.gradleutils' version '2.+'
-    id 'com.github.johnrengelman.shadow' version '2.0.4'
+    id 'com.github.johnrengelman.shadow' version '7.1.1'
 }
 
 group = 'net.minecraftforge'
@@ -53,9 +53,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.ow2.asm:asm:9.3'
-    implementation 'org.ow2.asm:asm-tree:9.3'
-    implementation 'org.ow2.asm:asm-util:9.3'
+    implementation 'org.ow2.asm:asm:9.4'
+    implementation 'org.ow2.asm:asm-tree:9.4'
+    implementation 'org.ow2.asm:asm-util:9.4'
     implementation 'net.sf.jopt-simple:jopt-simple:5.0.4'
 	//Because tons of projects all paarsing SRG files is annoying
 	implementation 'net.minecraftforge:srgutils:0.4.+'
